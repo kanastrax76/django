@@ -8,4 +8,5 @@ urlpatterns = [
     path('', students_list, name='students'),
     path('__debug__/', include(debug_toolbar.urls)),
     path('admin/', admin.site.urls),
+]
 
